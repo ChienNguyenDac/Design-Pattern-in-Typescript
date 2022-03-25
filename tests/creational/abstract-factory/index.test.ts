@@ -14,6 +14,7 @@ describe('Abstract factory pattern', () => {
         }
         expect(furniture?.getSize()).to.deep.equal(size)
     })
+    
     it('Test table factory', () => {
         const furniture = FurnitureFactory.createFurniture('SmallTable')
         expect(furniture?.type).to.equal(Furniture.Table)

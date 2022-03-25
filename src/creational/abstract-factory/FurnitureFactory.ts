@@ -1,6 +1,6 @@
 import { IChair } from "./Chair"
 import ChairFactory from "./ChairFactory"
-import { ITable } from "./Table"
+import { ITable } from "./table/Table"
 import TableFactory from "./TableFactory"
 
 interface IFurniture extends IChair, ITable {}

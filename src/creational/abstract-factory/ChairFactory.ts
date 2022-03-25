@@ -1,6 +1,6 @@
-import BigChair from "./BigChair"
+import BigChair from "./chair/BigChair"
 import { IChair } from "./Chair"
-import MediumChair from "./MediumChair"
+import MediumChair from "./chair/MediumChair"
 import SmallChair from "./SmallChair"
 
 class ChairFactory {

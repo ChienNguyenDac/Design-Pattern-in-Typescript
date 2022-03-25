@@ -1,7 +1,7 @@
-import BigChair from "./BigChair"
-import { IChair } from "./Chair"
-import MediumChair from "./MediumChair"
-import SmallChair from "./SmallChair"
+import BigChair from "./chair/BigChair"
+import { IChair } from "./chair/Chair"
+import MediumChair from "./chair/MediumChair"
+import SmallChair from "./chair/SmallChair"
 
 class ChairFactory {
     static createChair(chair: 'bigChair' | 'mediumChair' | 'smallChair'): IChair {

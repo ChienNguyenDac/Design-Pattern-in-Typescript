@@ -1,6 +1,6 @@
-import BigTable from "./BigTable"
-import SmallTable from "./SmallTable"
-import { ITable } from "./Table"
+import BigTable from "./table/BigTable"
+import SmallTable from "./table/SmallTable"
+import { ITable } from "./table/Table"
 
 class TableFactory {
     static createTable(table: string): ITable {
